@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:transparent;
+    display:flex ;
+    justify-content: space-around;
+    margin: 0;
+    padding: 5;
+}
+
+.container{
+    background-image:url("netflix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo{
+    margin-top: 10px;
+}
+.logo txt1 {
+    font-family:verdana;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.842);
+    margin-top: 15px;
+}
+
+nav  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+    width: 20%;
+}
+
+nav ul li {
+    padding: 0 7px;
+    margin-top: 8px;
+}
+
+nav ul li a{
+    color:white;
+    font-family: monospace;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.842);
+    padding: 5px;
+    border-radius: 3px ;
+    margin-left: 7em;
+    font-size: 15px;
+    margin-top: ;
+}
+
+.cont{
+    margin-top: 7em;
+    margin-bottom: em;
+}
+
+.cont h1{
+    color:white;
+    font-family: verdana;
+    font-size: 40px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.cont txt1{
+    color: white;
+    font-family: verdana;
+    font-size: 40px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.cont h4{
+    color: white;
+    margin-left: 13em;
+    margin-right: 6em;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: 1;
+    padding: 5px;
+}
+
+.cont h5{
+    margin-left: 6em;
+    font-family: verdana;
+    font-weight: 1;
+    font-size: 20px;
+    color: white;
+}
+
+input[type=text], select{
+    width: 50%;
+    margin-left: 7em;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+  }
+
+button{
+   background-color:rgba(255, 0, 0, 0.842);
+   padding: 20px;  
+   margin-left: 2px;
+   border: 1px solid rgba(255, 0, 0, 0.842);
+   color: white;
+   width: 25%;
+   cursor: pointer;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 1em;
+    background-color: black;
+    padding: 10px;
+}
+
+.wrapper h1{
+    margin-left: 3em;
+    color: white;
+    font-size: 30px;
+    font-family: verdana;
+}
+
+.wrapper h3{
+    color: white;
+    margin-left: 3em;
+    font-weight: 1;
+    font-size: 25px;
+    font-family: verdana;
+}
+
+.wrapper img{
+    width: 50%;
+    margin-bottom: 3em;
+}
+
+.wrapper txt1{
+    color: white;
+    font-size: 40px;
+    font-family: verdana;
+}
+
+.wrapper txt2{
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.freq{
+    background-color: black;
+    padding: 10px;
+}
+
+.freq h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: verdana;
+    padding: 10px;
+}
+
+.freq button{
+    margin-left: 9em;
+    background-color: grey;
+    border: none;
+    width: 60%;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    background: black;
+    padding: 10px;
+}
+
+.bottom h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: verdana;
+    font-weight: 1;
+}
+
+.bot {
+    background-color: black;
+    color: grey;
+    padding: 20px;
+}
+
+ ul {
+    list-style-type: none;
+    display: block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 3em;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.bottom2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 2em;
+}
+
+footer{
+    background-color: black;
+}
+
+footer h3{
+    color: grey;
+    font-size: 15px;
+    font-family: verdana;
+    font-weight: 1;
+    margin-left: 3em;
+}
+
+/*responsiveness*/
+
+@media screen and (max-width:675px){
+    nav{
+        background-color:transparent;
+        display:flex;
+        margin: 0;
+    }
+    
+    .container{
+        background-image:url("netflix.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .logo txt1 {
+        font-family:verdana;
+        font-size: 15px;
+        color: rgba(255, 0, 0, 0.842);
+        margin-top: 5px;
+    }
+    
+    nav  ul{
+        list-style-type: none;
+        display:inline-block;
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    nav ul li {
+        margin-top: 4px;
+    }
+    
+    nav ul li a{
+        color:white;
+        font-family: monospace;
+        font-size: 10px;
+        text-decoration: none;
+        background-color: rgba(255, 0, 0, 0.842);
+        padding: 3px;
+        border-radius: 2px;
+    }
+    
+    .cont{
+        margin-top: 2em;
+    }
+    
+    .cont h1{
+        color:white;
+        font-family: verdana;
+        font-size: 13px;
+       margin-left: 2em;
+
+    }
+    
+    .cont txt1{
+        color: white;
+        font-family: verdana;
+        font-size: 15px;
+       margin-left: 2em; 
+    }
+    
+    .cont h4{
+        color: white;
+        margin-left:2em;
+        font-size: 10px;
+        font-family: verdana;
+        font-weight: 1;
+    }
+    
+    .cont h5{
+        margin-left: 2em;
+        font-family: verdana;
+        font-weight: 1;
+        font-size: 10px;
+        color: white;
+    }
+    
+    input[type=text], select{
+        width: 60%;
+        margin-left: 1em;
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 1em;
+      }
+    
+    button{
+       background-color:rgba(255, 0, 0, 0.842);
+       padding: 13px;  
+       margin-left: 2px;
+       border: 1px solid rgba(255, 0, 0, 0.842);
+       color: white;
+       width: 25%;
+       cursor: pointer;
+       font-size: 10px;
+    }
+    
+    .wrapper{
+        display: grid;
+        grid-template-columns: 50% 40%;
+        grid-gap: 1em;
+        background-color: black;
+        padding: 4px;
+    }
+    
+    .wrapper h1{
+        margin-left: 2em;
+        color: white;
+        font-size: 15px;
+        font-family: verdana;
+    }
+    
+    .wrapper h3{
+        color: white;
+        margin-left: 2em;
+        font-weight: 1;
+        font-size: 12px;
+        font-family: verdana;
+    }
+    
+    .wrapper img{
+        width:80%;
+        margin-bottom: 3em;
+    }
+    
+    .wrapper txt1{
+        color: white;
+        font-size: 15px;
+        font-family: verdana;
+    }
+    
+    .wrapper txt2{
+        color: white;
+        font-size: 10px;
+        font-family: verdana;
+    }
+    
+    .freq{
+        background-color: black;
+        padding: 5px;
+    }
+    
+    .freq h1{
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        font-family: verdana;
+        padding: 5px;
+    }
+    
+    .freq button{
+        margin-left: 6em;
+        background-color: grey;
+        border: none;
+        width: 60%;
+        text-align: left;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .bottom{
+        background: black;
+        padding: 10px;
+    }
+    
+    .bottom h3{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        font-family: verdana;
+        font-weight: 1;
+    }
+    
+    .bot {
+        background-color: black;
+        color: grey;
+        padding: 20px;
+    }
+    
+     ul {
+        list-style-type: none;
+        display: block;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: grey;
+        margin-left: 1em;
+        font-family: verdana;
+        font-size: 8px;
+    }
+    
+    .bottom2{
+        display: grid;
+        grid-template-columns:  50% 50%;
+        margin-top: 1em;
+    }
+    
+    footer{
+        background-color: black;
+    }
+    
+    footer h3{
+        color: grey;
+        font-size: 10px;
+        font-family: verdana;
+        font-weight: 1;
+        margin-left: 1em;
+    }
+}
